@@ -3,8 +3,8 @@ collection of dot config files for hyprland with a simple install script for a f
 
 You can grab the config files and install packages by hand with this commnad
 ```
-yay -S hyprland-bin kitty waybar-hyprland \
-    swaybg swaylock-effects wofi wlogout mako thunar \
+yay -S hyprland-bin alacritty waybar-hyprland \
+    swaybg swaylock-effects wofi wlogout mako nautilus \
     ttf-jetbrains-mono-nerd noto-fonts-emoji \
     polkit-gnome python-requests starship \
     swappy grim slurp pamixer brightnessctl gvfs \
