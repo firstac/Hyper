@@ -1,8 +1,10 @@
 # hyprland
-collection of dot config files for hyprland with a simple install script for a fresh Arch linux with yay
 
-You can grab the config files and install packages by hand with this commnad
-```
+Collection of dot config files for [`hyprland`](https://hyprland.org/) with a simple install script for a fresh Arch Linux with [`yay` (or whatever AUR helper you have)](https://wiki.archlinux.org/title/AUR_helpers).
+
+You can grab the config files and install packages by hand with this command:
+
+```sh
 yay -S hyprland-bin kitty waybar-hyprland \
     swaybg swaylock-effects wofi wlogout mako thunar \
     ttf-jetbrains-mono-nerd noto-fonts-emoji \
