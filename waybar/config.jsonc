@@ -107,7 +107,7 @@
             "/sys/class/hwmon/hwmon2/temp1_input",
             "/sys/class/thermal/thermal_zone0/temp"
         ],
-        "critical-threshold": 70,
+        "critical-threshold": 80,
         "format-critical": " {temperatureC}°C",
         "format": " {temperatureC}°C"
     },
