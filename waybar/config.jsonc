@@ -102,11 +102,16 @@
     },
     
     "temperature": {
-        "thermal-zone": 1,
-        "format": "{temperatureF}°F ",
-        "critical-threshold": 80,
-        "format-critical": "{temperatureC}°C "
+        "thermal-zone": 2,
+        "hwmon-path": [
+            "/sys/class/hwmon/hwmon2/temp1_input",
+            "/sys/class/thermal/thermal_zone0/temp"
+        ],
+        "critical-threshold": 70,
+        "format-critical": " {temperatureC}°C",
+        "format": " {temperatureC}°C"
     },
+
 
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
